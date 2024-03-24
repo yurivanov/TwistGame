@@ -1,0 +1,826 @@
+Unity Editor version:    2022.3.15f1 (b58023a2b463)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.3.1 (Build 23D60)
+Darwin version:          23.3.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        32768 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/yurii.ivanov/Documents/GitHub/TwistGame/Twist
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63379
+Successfully changed project path to: /Users/yurii.ivanov/Documents/GitHub/TwistGame/Twist
+/Users/yurii.ivanov/Documents/GitHub/TwistGame/Twist
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [140704279914432] Host "[IP] 192.168.50.49 [Port] 0 [Flags] 2 [Guid] 3918039005 [EditorId] 3918039005 [Version] 1048832 [Id] OSXEditor(0,yurii.ivanov-7UDM) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [140704279914432] Host "[IP] 192.168.50.49 [Port] 0 [Flags] 2 [Guid] 3918039005 [EditorId] 3918039005 [Version] 1048832 [Id] OSXEditor(0,yurii.ivanov-7UDM) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 7.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.15f1 (b58023a2b463)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/yurii.ivanov/Documents/GitHub/TwistGame/Twist/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: AMD Radeon Pro 5300M (high power)
+Metal devices available: 2
+0: AMD Radeon Pro 5300M (high power)
+1: Intel(R) UHD Graphics 630 (low power)
+Using device AMD Radeon Pro 5300M (high power)
+Initializing Metal device caps: AMD Radeon Pro 5300M
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56864
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.15f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.15f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.003963 seconds.
+- Loaded All Assemblies, in  0.582 seconds
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 373 ms
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.084 seconds
+Domain Reload Profiling: 1674ms
+	BeginReloadAssembly (167ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (63ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (80ms)
+	LoadAllAssembliesAndSetupDomain (262ms)
+		LoadAssemblies (167ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (251ms)
+			TypeCache.Refresh (249ms)
+				TypeCache.ScanAssembly (228ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1085ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (974ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (692ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (193ms)
+			ProcessInitializeOnLoadMethodAttributes (78ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.994 seconds
+Refreshing native plugins compatible for Editor in 2.77 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.100 seconds
+Domain Reload Profiling: 2095ms
+	BeginReloadAssembly (188ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (677ms)
+		LoadAssemblies (460ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (321ms)
+			TypeCache.Refresh (270ms)
+				TypeCache.ScanAssembly (242ms)
+			ScanForSourceGeneratedMonoScriptInfo (30ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1101ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (769ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (50ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (529ms)
+			ProcessInitializeOnLoadMethodAttributes (95ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.10 seconds
+Refreshing native plugins compatible for Editor in 3.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5565 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 99 unused Assets / (0.8 MB). Loaded Objects now: 6014.
+Memory consumption went from 222.6 MB to 221.9 MB.
+Total: 6.932769 ms (FindLiveObjects: 0.672775 ms CreateObjectMapping: 0.742666 ms MarkObjects: 4.924210 ms  DeleteObjects: 0.591429 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 72425.118928 seconds.
+  path: Assets/!TwistGame/Models
+  artifactKey: Guid(eed1b8f7e845d40b8a7826b9233476d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!TwistGame/Models using Guid(eed1b8f7e845d40b8a7826b9233476d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6d37e4018a84a9f76e093348d94cecb') in 0.001824 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.256249 seconds.
+  path: Assets/!TwistGame/Scenes/TwistSceneNavControl
+  artifactKey: Guid(8c207570fcd0a49c0bc18aad3c040dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!TwistGame/Scenes/TwistSceneNavControl using Guid(8c207570fcd0a49c0bc18aad3c040dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcbc2b42170241e49d8d568d668df201') in 0.000451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.437407 seconds.
+  path: Assets/!TwistGame/Scenes/TwistSceneNavControl.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!TwistGame/Scenes/TwistSceneNavControl.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99f4e5b87f8b47e90e4ab6082d0cb001') in 0.000436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.030720 seconds.
+  path: Assets/!TwistGame/Scenes/TwistScene.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!TwistGame/Scenes/TwistScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ba119b1ef27d8670ed8be76d0813993') in 0.000461 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 16.142525 seconds.
+  path: Assets/!TwistGame/Models/CityVoxelPack/DemoScenes/Demo.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!TwistGame/Models/CityVoxelPack/DemoScenes/Demo.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e44329ef60132597aaf72767f5fddc2') in 0.009746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.443481 seconds.
+  path: Assets/!TwistGame/Models/CityVoxelPack/DemoScenes/Grid.unity
+  artifactKey: Guid(15b7ca6eea87d724c901555f92fc54fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!TwistGame/Models/CityVoxelPack/DemoScenes/Grid.unity using Guid(15b7ca6eea87d724c901555f92fc54fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '730493b908cd374e23ede79a17b06a30') in 0.000446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 28.707057 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/ArnoldStandardSurface/ArnoldStandardSurface.shadergraph
+  artifactKey: Guid(3739e562a03fc0b4982d8aa66cc50865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/ArnoldStandardSurface/ArnoldStandardSurface.shadergraph using Guid(3739e562a03fc0b4982d8aa66cc50865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f455ed58d1b6abdc7f221a6a4225dda9') in 3.743144 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/!TwistGame/Models/CityVoxelPack/Assets/buildings/medium/Meshes/building5.obj
+  artifactKey: Guid(a827ada25e62ef7489327213aebe9ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!TwistGame/Models/CityVoxelPack/Assets/buildings/medium/Meshes/building5.obj using Guid(a827ada25e62ef7489327213aebe9ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bde4eb77834d6bc5199b803f3927c153') in 1.428445 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.035341 seconds.
+  path: Assets/!TwistGame/Models/CityVoxelPack/Assets/buildings/medium/Materials/building4.mat
+  artifactKey: Guid(273fc31f318657f4696fd991e14a6b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!TwistGame/Models/CityVoxelPack/Assets/buildings/medium/Materials/building4.mat using Guid(273fc31f318657f4696fd991e14a6b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7db5f242b823bb72991598678e7477aa') in 0.145211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/!TwistGame/Models/CityVoxelPack/Assets/buildings/props/doors/Meshes/door1_4x5.obj
+  artifactKey: Guid(9c9eca2a6f4238a4a90a408da4c184c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!TwistGame/Models/CityVoxelPack/Assets/buildings/props/doors/Meshes/door1_4x5.obj using Guid(9c9eca2a6f4238a4a90a408da4c184c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aaebe9807800dd71ecc9fc4f0e167fb') in 0.050646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/!TwistGame/Models/CityVoxelPack/Assets/buildings/medium/Materials/building2.mat
+  artifactKey: Guid(32dc0a79bb3492f4687a4d6c0b733d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!TwistGame/Models/CityVoxelPack/Assets/buildings/medium/Materials/building2.mat using Guid(32dc0a79bb3492f4687a4d6c0b733d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a5d74a2c7174727db8b63685c3afd2d') in 0.015006 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/!TwistGame/Models/CityVoxelPack/Assets/buildings/medium/Meshes/building14.obj
+  artifactKey: Guid(860db9e42cb484c4fa46091dca914678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!TwistGame/Models/CityVoxelPack/Assets/buildings/medium/Meshes/building14.obj using Guid(860db9e42cb484c4fa46091dca914678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fb0a3d1db19970a386c668147e843cf') in 0.041598 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/!TwistGame/Models/CityVoxelPack/Assets/buildings/props/windows/Meshes/window2_3x2.obj
+  artifactKey: Guid(b32d582fd72647643883f1017549146b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!TwistGame/Models/CityVoxelPack/Assets/buildings/props/windows/Meshes/window2_3x2.obj using Guid(b32d582fd72647643883f1017549146b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2e41f8bfec0b4b01eb959b4195f0906') in 0.035686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/!TwistGame/Models/CityVoxelPack/Assets/buildings/props/windows/Meshes/window3_3x2.obj
+  artifactKey: Guid(cc5feb3282089d54e90d1ec234da7954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!TwistGame/Models/CityVoxelPack/Assets/buildings/props/windows/Meshes/window3_3x2.obj using Guid(cc5feb3282089d54e90d1ec234da7954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2aac354d9077bfb0a08bba8eba9e2da') in 0.035182 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/!TwistGame/Models/CityVoxelPack/Assets/buildings/props/doors/Meshes/door2_4x3.obj
+  artifactKey: Guid(0f141ae37acd2934d8ece52f4faae11c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!TwistGame/Models/CityVoxelPack/Assets/buildings/props/doors/Meshes/door2_4x3.obj using Guid(0f141ae37acd2934d8ece52f4faae11c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f031f44e9bcd5e1fb6f3df7c8be57cb') in 0.061499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/!TwistGame/Models/CityVoxelPack/Assets/buildings/medium/Meshes/building13.obj
+  artifactKey: Guid(999c20881b737984c96a2e24763570fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!TwistGame/Models/CityVoxelPack/Assets/buildings/medium/Meshes/building13.obj using Guid(999c20881b737984c96a2e24763570fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0130e3438066dc6e39bc0f0f89081c1') in 0.040267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/!TwistGame/Models/CityVoxelPack/Assets/buildings/props/windows/Meshes/window1_2x2.obj
+  artifactKey: Guid(80e8cbf773609d04b8e71577562698b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!TwistGame/Models/CityVoxelPack/Assets/buildings/props/windows/Meshes/window1_2x2.obj using Guid(80e8cbf773609d04b8e71577562698b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '452860cc3f7ecf434b8c4c62b9846b13') in 0.039689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/!TwistGame/Models/CityVoxelPack/Assets/buildings/props/doors/Meshes/door4_4x3.obj
+  artifactKey: Guid(1dbf38f11aa2ea7449693484ebfa138b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!TwistGame/Models/CityVoxelPack/Assets/buildings/props/doors/Meshes/door4_4x3.obj using Guid(1dbf38f11aa2ea7449693484ebfa138b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e953bdc4e2c5451e7a16d8400e1623b') in 0.037775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/!TwistGame/Models/CityVoxelPack/Assets/buildings/medium/Meshes/building3.obj
+  artifactKey: Guid(82de4fbb665710e4f8bd208eb9df045c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!TwistGame/Models/CityVoxelPack/Assets/buildings/medium/Meshes/building3.obj using Guid(82de4fbb665710e4f8bd208eb9df045c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c9a8540e70cb5fd69a18f858e8899c1') in 0.062823 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/!TwistGame/Models/CityVoxelPack/Assets/buildings/medium/Meshes/building2.obj
+  artifactKey: Guid(2675c88f7137b6e4fa82bb2e26d6ce21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!TwistGame/Models/CityVoxelPack/Assets/buildings/medium/Meshes/building2.obj using Guid(2675c88f7137b6e4fa82bb2e26d6ce21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed90598e0bd27e416722caf3dba847c9') in 0.039405 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/!TwistGame/Models/CityVoxelPack/Assets/buildings/props/doors/Meshes/door2_4x5.obj
+  artifactKey: Guid(b221ab42cad051b45a88da43bba7e4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!TwistGame/Models/CityVoxelPack/Assets/buildings/props/doors/Meshes/door2_4x5.obj using Guid(b221ab42cad051b45a88da43bba7e4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57e5b017fd459aaef8e3436cd927b07d') in 0.034659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/!TwistGame/Models/CityVoxelPack/Assets/buildings/medium/Materials/building1.mat
+  artifactKey: Guid(f242548e4848c614ca1825e176f890d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!TwistGame/Models/CityVoxelPack/Assets/buildings/medium/Materials/building1.mat using Guid(f242548e4848c614ca1825e176f890d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdecbf73a3d4bc1c91776a4b9192024d') in 0.012943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/!TwistGame/Models/CityVoxelPack/Assets/buildings/medium/Materials/building3.mat
+  artifactKey: Guid(36443da477f43bf4b8859695294b1f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!TwistGame/Models/CityVoxelPack/Assets/buildings/medium/Materials/building3.mat using Guid(36443da477f43bf4b8859695294b1f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07942202e1e123de192a2f589054a312') in 0.013677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/!TwistGame/Models/CityVoxelPack/Assets/buildings/medium/Meshes/building10.obj
+  artifactKey: Guid(e5fc3e60437e93c448fc0b5d75a83fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!TwistGame/Models/CityVoxelPack/Assets/buildings/medium/Meshes/building10.obj using Guid(e5fc3e60437e93c448fc0b5d75a83fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c401cb90812644efd0889c5519c28a4') in 0.036864 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/!TwistGame/Models/CityVoxelPack/Assets/buildings/medium/Meshes/building6.obj
+  artifactKey: Guid(0115deb8cf7144a468d8ab395dc09d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!TwistGame/Models/CityVoxelPack/Assets/buildings/medium/Meshes/building6.obj using Guid(0115deb8cf7144a468d8ab395dc09d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a9c19cfb172e686f27465e50470357a') in 0.050299 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/!TwistGame/Models/CityVoxelPack/Assets/buildings/medium/Meshes/building7.obj
+  artifactKey: Guid(18475548abced004897aa50644e2e10a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!TwistGame/Models/CityVoxelPack/Assets/buildings/medium/Meshes/building7.obj using Guid(18475548abced004897aa50644e2e10a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7756539b92041a018fe4b82e6275de51') in 0.039066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-BlackItalic.ttf
+  artifactKey: Guid(f95147a9bab9fe649b8070170fa7ebd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-BlackItalic.ttf using Guid(f95147a9bab9fe649b8070170fa7ebd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70d842ffe8f33949831152cfca592e9e') in 0.290027 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/!TwistGame/Models/CityVoxelPack/Assets/buildings/props/windows/Meshes/window1_3x2.obj
+  artifactKey: Guid(4def2a3de2fefda48b1701b14e508847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!TwistGame/Models/CityVoxelPack/Assets/buildings/props/windows/Meshes/window1_3x2.obj using Guid(4def2a3de2fefda48b1701b14e508847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07b08bb596687152b2432c8ff3446eae') in 0.036659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/!TwistGame/Models/CityVoxelPack/Assets/buildings/props/doors/Materials/door.mat
+  artifactKey: Guid(68beb8463aea8d64a9dec69d5d3d2cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!TwistGame/Models/CityVoxelPack/Assets/buildings/props/doors/Materials/door.mat using Guid(68beb8463aea8d64a9dec69d5d3d2cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15af91bda5a912710d362404905492dc') in 0.014577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/AutodeskInteractive/AutodeskInteractive.shadergraph
+  artifactKey: Guid(0e9d5a909a1f7e84882a534d0d11e49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/AutodeskInteractive/AutodeskInteractive.shadergraph using Guid(0e9d5a909a1f7e84882a534d0d11e49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '008f97b849feaf20cd7eb1a33071dc50') in 2.837309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005111 seconds.
+  path: Assets/!TwistGame/Models/CityVoxelPack/Assets/buildings/medium/Meshes/building1.obj
+  artifactKey: Guid(74ee95a897932a946bca4a79b74f6750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!TwistGame/Models/CityVoxelPack/Assets/buildings/medium/Meshes/building1.obj using Guid(74ee95a897932a946bca4a79b74f6750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b77633e7a61c94f82407b3a6875e35fc') in 0.035689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000589 seconds.
+  path: Assets/!TwistGame/Models/CityVoxelPack/Assets/buildings/medium/Meshes/building8.obj
+  artifactKey: Guid(0fa25c0c90e843241abdfcd9e00d4016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!TwistGame/Models/CityVoxelPack/Assets/buildings/medium/Meshes/building8.obj using Guid(0fa25c0c90e843241abdfcd9e00d4016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09417d00356e1a48c6cbfe7fb37be803') in 0.034361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/!TwistGame/Models/CityVoxelPack/Assets/buildings/props/windows/Meshes/window3_2x3.obj
+  artifactKey: Guid(c3e33b68d68646e4289907c6f83b23e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!TwistGame/Models/CityVoxelPack/Assets/buildings/props/windows/Meshes/window3_2x3.obj using Guid(c3e33b68d68646e4289907c6f83b23e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91ddd8f0976bcab5e0860d7b66f7f478') in 0.037148 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/!TwistGame/Models/CityVoxelPack/Assets/buildings/medium/Meshes/building12.obj
+  artifactKey: Guid(9eef59c43ce37ba47b6330c207332787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!TwistGame/Models/CityVoxelPack/Assets/buildings/medium/Meshes/building12.obj using Guid(9eef59c43ce37ba47b6330c207332787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09c8087ea7a249d59ce4cfaf9b726f55') in 0.042926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/!TwistGame/Models/CityVoxelPack/Assets/buildings/medium/Meshes/building9.obj
+  artifactKey: Guid(80d6e44940138c94a8231999517b623e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!TwistGame/Models/CityVoxelPack/Assets/buildings/medium/Meshes/building9.obj using Guid(80d6e44940138c94a8231999517b623e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37125a0c64b2b66928b839a7ec54581f') in 0.043753 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/!TwistGame/Models/CityVoxelPack/Assets/buildings/props/doors/Meshes/door3_4x3.obj
+  artifactKey: Guid(735dc1cf625b98b4893c265ff7936b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!TwistGame/Models/CityVoxelPack/Assets/buildings/props/doors/Meshes/door3_4x3.obj using Guid(735dc1cf625b98b4893c265ff7936b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a904c2d873552b3e8cc8b3e9d5d26480') in 0.034025 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/!TwistGame/Models/CityVoxelPack/Assets/buildings/medium/Meshes/building4.obj
+  artifactKey: Guid(61da7566f0a0e6c4c9a0a298c48e7a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!TwistGame/Models/CityVoxelPack/Assets/buildings/medium/Meshes/building4.obj using Guid(61da7566f0a0e6c4c9a0a298c48e7a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b6350e951f42a36be0eb6f50cacfeae') in 0.032877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/!TwistGame/Models/CityVoxelPack/Assets/buildings/props/doors/Meshes/door4_4x5.obj
+  artifactKey: Guid(d73e025ad3a87914baeb9c215cf6e1e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!TwistGame/Models/CityVoxelPack/Assets/buildings/props/doors/Meshes/door4_4x5.obj using Guid(d73e025ad3a87914baeb9c215cf6e1e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a053f983b1ccad33003ffc8aa5e3d0c') in 0.034912 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/!TwistGame/Models/CityVoxelPack/Assets/buildings/medium/Meshes/building11.obj
+  artifactKey: Guid(bbeaa5c38d7b8e24b90890d689fee3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!TwistGame/Models/CityVoxelPack/Assets/buildings/medium/Meshes/building11.obj using Guid(bbeaa5c38d7b8e24b90890d689fee3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d18a009ec319c7e55c2e2b42551b1f1') in 0.036251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 3.756306 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Black.ttf
+  artifactKey: Guid(1062c701058745940ae5dca6219c64c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Black.ttf using Guid(1062c701058745940ae5dca6219c64c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58f78836d98b4d1fdec5e5c3f4df550d') in 0.015754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Regular.ttf
+  artifactKey: Guid(30dc370b164eefc43b95744fc796dad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Regular.ttf using Guid(30dc370b164eefc43b95744fc796dad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad4873041c2cfc38983ed04dfc84c49d') in 0.027501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Bold.ttf
+  artifactKey: Guid(3750c318f40cab44a97d3a81beaefeb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Bold.ttf using Guid(3750c318f40cab44a97d3a81beaefeb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1104475021d6ecd2c2befa33e5e37761') in 0.015695 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/!TwistGame/Models/CityVoxelPack/Assets/pavements/Mesh/pavement1-3.obj
+  artifactKey: Guid(7743d1401b120d24f90dda8743067622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!TwistGame/Models/CityVoxelPack/Assets/pavements/Mesh/pavement1-3.obj using Guid(7743d1401b120d24f90dda8743067622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aec0581dff89d3ace374c831915b2115') in 0.036779 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/!TwistGame/Models/CityVoxelPack/Assets/pavements/Mesh/pavementCornerCircle(3)1-10.obj
+  artifactKey: Guid(3b0ca770a83f92940bbb264980487abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!TwistGame/Models/CityVoxelPack/Assets/pavements/Mesh/pavementCornerCircle(3)1-10.obj using Guid(3b0ca770a83f92940bbb264980487abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9b4c0d6969fa5e3c6c6625aad40d0ac') in 0.028080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/!TwistGame/Models/CityVoxelPack/Assets/roads/medium/Mesh/road1.obj
+  artifactKey: Guid(07e6fdb41b265184dad1158beefc08f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!TwistGame/Models/CityVoxelPack/Assets/roads/medium/Mesh/road1.obj using Guid(07e6fdb41b265184dad1158beefc08f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6b7688f55fae6ec6b3c2e1bf2b1c0d8') in 0.025411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Joystick Pack/Examples/Ground.mat
+  artifactKey: Guid(c569c280f0eb52a49a7b2a6b8b0cbcf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Joystick Pack/Examples/Ground.mat using Guid(c569c280f0eb52a49a7b2a6b8b0cbcf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb9d6033fb8e28559566f8d66e6f6e3d') in 0.009856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/!TwistGame/Models/CityVoxelPack/Assets/roads/medium/Mesh/road3bis.obj
+  artifactKey: Guid(aea25602f5c86144cb32cf9916b56243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!TwistGame/Models/CityVoxelPack/Assets/roads/medium/Mesh/road3bis.obj using Guid(aea25602f5c86144cb32cf9916b56243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b335c523aadd6ec38e58e9d0fa3b1f77') in 0.026100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/FullscreenInvertColors.mat
+  artifactKey: Guid(78a08787ca30045abb69f6f7dd878e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/FullscreenInvertColors.mat using Guid(78a08787ca30045abb69f6f7dd878e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a807d708377fc2be3f8941faa0e14e0') in 0.344016 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/!TwistGame/Models/CityVoxelPack/Assets/roads/tall/Mesh/road12bisbis.obj
+  artifactKey: Guid(87a1017fcd16ea442bb0ac930c8904bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!TwistGame/Models/CityVoxelPack/Assets/roads/tall/Mesh/road12bisbis.obj using Guid(87a1017fcd16ea442bb0ac930c8904bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '969586c846690ba2f9381fa85b659dc6') in 0.028558 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/2D/VFXSpriteUnlit.shadergraph
+  artifactKey: Guid(d7288f66e4fb0634c9afef98c31b722a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/2D/VFXSpriteUnlit.shadergraph using Guid(d7288f66e4fb0634c9afef98c31b722a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5281a9e2b43b47a6b95f4ee65f0c445') in 0.318106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/!TwistGame/Models/CityVoxelPack/Assets/roads/tall/Mesh/road16bis.obj
+  artifactKey: Guid(ff22593d2e5ffb14cbc756262847380e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!TwistGame/Models/CityVoxelPack/Assets/roads/tall/Mesh/road16bis.obj using Guid(ff22593d2e5ffb14cbc756262847380e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '063296b34bd25194d22a1119cf633438') in 0.045433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat
+  artifactKey: Guid(9dfc825aed78fcd4ba02077103263b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat using Guid(9dfc825aed78fcd4ba02077103263b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a8afc5ed3fdb2ab0947ef30f09258e5') in 0.081725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/!TwistGame/Models/CityVoxelPack/Assets/roads/medium/Mesh/road5.obj
+  artifactKey: Guid(90b9ae1c3c0539044ae4e318a62dc55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!TwistGame/Models/CityVoxelPack/Assets/roads/medium/Mesh/road5.obj using Guid(90b9ae1c3c0539044ae4e318a62dc55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c75b43422c298c02804a641b8ae9daa') in 0.026381 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/!TwistGame/Models/CityVoxelPack/Assets/roads/tall/Mesh/road12bis.obj
+  artifactKey: Guid(6d6686f3d1a67e0449d01015efd9dc2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!TwistGame/Models/CityVoxelPack/Assets/roads/tall/Mesh/road12bis.obj using Guid(6d6686f3d1a67e0449d01015efd9dc2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4640880681f102a47e43b086239299d5') in 0.030151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/!TwistGame/Models/CityVoxelPack/Assets/roads/tall/Mesh/road11.obj
+  artifactKey: Guid(e9390ae0e432be447bf637e4bac268ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!TwistGame/Models/CityVoxelPack/Assets/roads/tall/Mesh/road11.obj using Guid(e9390ae0e432be447bf637e4bac268ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e48136e1d180368e9d731f0f4ab55c3') in 0.029774 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/!TwistGame/Models/CityVoxelPack/Assets/roads/medium/Mesh/road6.obj
+  artifactKey: Guid(524edb3219a72be459ea1bc39f353749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!TwistGame/Models/CityVoxelPack/Assets/roads/medium/Mesh/road6.obj using Guid(524edb3219a72be459ea1bc39f353749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd408b785fb9e8d991e53a45cbc35b53d') in 0.028649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Lit-Default.mat
+  artifactKey: Guid(a97c105638bdf8b4a8650670310a4cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Lit-Default.mat using Guid(a97c105638bdf8b4a8650670310a4cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ac0927d3bd15d189603a5f286d04832') in 0.081225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/!TwistGame/Models/CityVoxelPack/Assets/pavements/Mesh/pavementCorner(3)1-5.obj
+  artifactKey: Guid(e36009eadf3d0e346ba04c0692f41d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!TwistGame/Models/CityVoxelPack/Assets/pavements/Mesh/pavementCorner(3)1-5.obj using Guid(e36009eadf3d0e346ba04c0692f41d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f51380e184fb2693a5c6b9518c25687') in 0.029729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat
+  artifactKey: Guid(31321ba15b8f8eb4c954353edc038b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat using Guid(31321ba15b8f8eb4c954353edc038b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ba53ef7d89fd24409d2ca2b7c29bfe7') in 0.009963 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/!TwistGame/Models/CityVoxelPack/Assets/pavements/Materials/pavement1.mat
+  artifactKey: Guid(6804e1d61928364449facc32037cf29a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!TwistGame/Models/CityVoxelPack/Assets/pavements/Materials/pavement1.mat using Guid(6804e1d61928364449facc32037cf29a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59a8567b05f9694061104f8e3335b84a') in 0.010543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/!TwistGame/Models/CityVoxelPack/Assets/pavements/Mesh/pavement1-4.obj
+  artifactKey: Guid(dcaf82c0160952244a58e619eebfe1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!TwistGame/Models/CityVoxelPack/Assets/pavements/Mesh/pavement1-4.obj using Guid(dcaf82c0160952244a58e619eebfe1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd620a193e249a327beca4c2be8999f41') in 0.032600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/PhysicalMaterial3DsMax/PhysicalMaterial3DsMax.shadergraph
+  artifactKey: Guid(44245ab89240f51459a5077d7145c452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/PhysicalMaterial3DsMax/PhysicalMaterial3DsMax.shadergraph using Guid(44245ab89240f51459a5077d7145c452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3e58bdd980ba7753bd35358ec0df538') in 2.437485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000424 seconds.
+  path: Assets/!TwistGame/Models/CityVoxelPack/Assets/roads/tall/Mesh/road16.obj
+  artifactKey: Guid(f90bf2d0e97999b4ba1f26083e999167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!TwistGame/Models/CityVoxelPack/Assets/roads/tall/Mesh/road16.obj using Guid(f90bf2d0e97999b4ba1f26083e999167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '746ba7085d481bd9db3f84ad568ae2b9') in 0.029487 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/!TwistGame/Models/CityVoxelPack/Assets/pavements/Mesh/pavement1-10.obj
+  artifactKey: Guid(09746868085e56943934074de4b69bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!TwistGame/Models/CityVoxelPack/Assets/pavements/Mesh/pavement1-10.obj using Guid(09746868085e56943934074de4b69bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6b300452014245161f6e7a557e3edb7') in 0.030725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/!TwistGame/Models/CityVoxelPack/Assets/pavements/Mesh/pavementCorner1-10.obj
+  artifactKey: Guid(aa3f9876c5a5e0f4c930f898e985de36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!TwistGame/Models/CityVoxelPack/Assets/pavements/Mesh/pavementCorner1-10.obj using Guid(aa3f9876c5a5e0f4c930f898e985de36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd299b9459dc0a669c07597d389a59fdb') in 0.031399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/ParticlesUnlit.mat
+  artifactKey: Guid(e823cd5b5d27c0f4b8256e7c12ee3e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/ParticlesUnlit.mat using Guid(e823cd5b5d27c0f4b8256e7c12ee3e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4a340afe09a0c36939636f0659a9c06') in 0.336600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Joystick Pack/Examples/Player.mat
+  artifactKey: Guid(59e4faf24927edf4a82f463ad16f1c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Joystick Pack/Examples/Player.mat using Guid(59e4faf24927edf4a82f463ad16f1c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cc99fbdc40292269e5fafa563552de1') in 0.008527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/!TwistGame/Models/CityVoxelPack/Assets/roads/medium/Mesh/road7bis.obj
+  artifactKey: Guid(c6201795f831c7f4ba9fd29b03e9d8a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!TwistGame/Models/CityVoxelPack/Assets/roads/medium/Mesh/road7bis.obj using Guid(c6201795f831c7f4ba9fd29b03e9d8a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef8894aa237b0d22f1c69bc7eadae9bc') in 0.026314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpriteMask-Default.mat
+  artifactKey: Guid(15d0c3709176029428a0da2f8cecf0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpriteMask-Default.mat using Guid(15d0c3709176029428a0da2f8cecf0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e7151c693ef03ce4d1a2ee952837aa2') in 0.073474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000503 seconds.
+  path: Assets/!TwistGame/Models/CityVoxelPack/Assets/roads/tall/Mesh/road13bis.obj
+  artifactKey: Guid(d24e61983a3f9154d956e6439557d0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!TwistGame/Models/CityVoxelPack/Assets/roads/tall/Mesh/road13bis.obj using Guid(d24e61983a3f9154d956e6439557d0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bd2497b75ebc8bc64a39f09d423ee99') in 0.025961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/!TwistGame/Models/CityVoxelPack/Assets/roads/medium/Mesh/road7bisbis.obj
+  artifactKey: Guid(945aaf9dbf24fcf46ad8c6c421b63cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!TwistGame/Models/CityVoxelPack/Assets/roads/medium/Mesh/road7bisbis.obj using Guid(945aaf9dbf24fcf46ad8c6c421b63cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af1d3e009cbd01d21d4618e292a007d3') in 0.039472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/!TwistGame/Models/CityVoxelPack/Assets/roads/medium/Mesh/road4.obj
+  artifactKey: Guid(1f1fa02fdf59a3b47b0cb4985ad590a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!TwistGame/Models/CityVoxelPack/Assets/roads/medium/Mesh/road4.obj using Guid(1f1fa02fdf59a3b47b0cb4985ad590a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a32d2e67a768c4cbb5ba2a139940e86a') in 0.027587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/!TwistGame/Models/CityVoxelPack/Assets/roads/tall/Mesh/road17bisbis.obj
+  artifactKey: Guid(805f1e2a322471f43ba070d2876469e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!TwistGame/Models/CityVoxelPack/Assets/roads/tall/Mesh/road17bisbis.obj using Guid(805f1e2a322471f43ba070d2876469e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3477447b1832aba70e29314cc45603a2') in 0.027846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Medium.ttf
+  artifactKey: Guid(a51a3aebb43ac044989270407476b208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Medium.ttf using Guid(a51a3aebb43ac044989270407476b208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cf5c8c7af8ccb64f18e0893d27aa0d1') in 0.014718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/!TwistGame/Models/CityVoxelPack/Assets/roads/tall/Mesh/road14bis.obj
+  artifactKey: Guid(93c59148bac7f11428f12afd2d8fdeda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!TwistGame/Models/CityVoxelPack/Assets/roads/tall/Mesh/road14bis.obj using Guid(93c59148bac7f11428f12afd2d8fdeda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83469c1400987cfef7db5893ec78e797') in 0.029924 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Light.ttf
+  artifactKey: Guid(2a29e27936eb547458f646f71125b264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Light.ttf using Guid(2a29e27936eb547458f646f71125b264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ed105ce3594f0eb2dc5a3b63ac0084a') in 0.013415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-BoldItalic.ttf
+  artifactKey: Guid(dfb97a9307a577a41bcacba34b9a7e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-BoldItalic.ttf using Guid(dfb97a9307a577a41bcacba34b9a7e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '073832fbfd4fc91c062e81ed7cce2c8f') in 0.012954 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-LightItalic.ttf
+  artifactKey: Guid(5e63515167650a541b309ba3bfd4db3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-LightItalic.ttf using Guid(5e63515167650a541b309ba3bfd4db3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e61aea9964b00cbf645bab9d0d72390e') in 0.017156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 89, details: Operation aborted.
+AssetImportWorker is now disconnected from the server
+Process exiting
