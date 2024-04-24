@@ -14,6 +14,14 @@ public class PlayerTouchMovement : MonoBehaviour
 
     private Finger MovementFinger;
     private Vector2 MovementAmount;
+    private CharacterHealth characterHealth;
+
+
+    void Start()
+    {
+        characterHealth = GetComponent<CharacterHealth>();
+    }
+
 
     private void OnEnable()
     {
@@ -103,6 +111,12 @@ public class PlayerTouchMovement : MonoBehaviour
 
     private void Update()
     {
+        // Check if the player is dead.
+        if (characterHealth.health <= 0)
+        {
+            return; // Exit the method early if the player is dead.
+        }
+
         Vector3 scaledMovement = Player.speed * Time.deltaTime * new Vector3(
             MovementAmount.x,
             0,
@@ -114,4 +128,10 @@ public class PlayerTouchMovement : MonoBehaviour
     }
 
 
+
 }
+
+
+
+
+
