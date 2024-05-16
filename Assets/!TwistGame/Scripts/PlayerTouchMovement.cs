@@ -15,13 +15,13 @@ public class PlayerTouchMovement : MonoBehaviour
     private Finger MovementFinger;
     private Vector2 MovementAmount;
     private CharacterHealth characterHealth;
-
+    private Animator anim; // our animator
 
     void Start()
     {
         characterHealth = GetComponent<CharacterHealth>();
+        anim = GetComponent<Animator>(); // get the animator component
     }
-
 
     private void OnEnable()
     {
@@ -114,6 +114,7 @@ public class PlayerTouchMovement : MonoBehaviour
         // Check if the player is dead.
         if (characterHealth.health <= 0)
         {
+            anim.Play("DeadCharacter"); // if player is dead, use idle animation
             return; // Exit the method early if the player is dead.
         }
 
@@ -124,14 +125,18 @@ public class PlayerTouchMovement : MonoBehaviour
         );
 
         Player.transform.LookAt(Player.transform.position + scaledMovement, Vector3.up);
-        Player.Move(scaledMovement);
+
+        // check if the player is moving or standing still
+        if (scaledMovement != Vector3.zero)
+        {
+            Player.Move(scaledMovement);
+            anim.Play("WalkCharacter"); // if player is moving, use walk animation
+           // anim.SetBool("IdleCharacter", false);
+        }
+        else
+        {
+            // anim.SetBool("WalkCharacter", false); // if player is not moving, use idle animation
+            anim.Play("IdleCharacter");
+        }
     }
-
-
-
 }
-
-
-
-
-

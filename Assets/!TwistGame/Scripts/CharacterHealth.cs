@@ -9,7 +9,7 @@ public class CharacterHealth : MonoBehaviour
     private void Start()
     {
         animator = GetComponent<Animator>();
-        animator.Play("WalkCharacter");
+        //animator.Play("WalkCharacter");
 
      }
 
@@ -24,7 +24,7 @@ public class CharacterHealth : MonoBehaviour
 
     private void Die()
     {
-        animator.Play("DeadCharacter");
+       // animator.Play("DeadCharacter");
         isDead = true; // add this line
         //Destroy(gameObject, 2f);
     }

@@ -1,56 +1,24 @@
-/*using UnityEngine;
-
-public class EnemyHealthDamage : MonoBehaviour
-{
-    public int health = 50;
-    public bool isDead = false; // add this line
-    private Animator animator;
-
-    private void Start()
-    {
-        animator = GetComponent<Animator>();
-        animator.Play("WalkEnemy");
-    }
-
-    public void TakeDamage(int damage)
-    {
-        health -= damage;
-        if (health <= 0)
-        {
-            Die();
-        }
-    }
-
-    private void Die()
-    {
-        isDead = true; // set isDead to true
-        animator.Play("DeadEnemy");
-        Destroy(gameObject, 2f);
-    }
-}
-*/
-
-
-
-
-
 using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class EnemyHealthDamage : MonoBehaviour
 {
     public int health = 50;
     public bool isDead = false;
     public Material hurtMaterial;
-    public MeshRenderer[] meshRenderers;
+    [SerializeField] private SkinnedMeshRenderer[] skinnedMeshRenderer;
 
-    private Material originalMaterial;
+    private List<Material[]> originalMaterials = new List<Material[]>(); // keep track of original materials
     private Animator animator;
 
     private void Start()
     {
         animator = GetComponent<Animator>();
-        originalMaterial = meshRenderers[0].material;
+        foreach (SkinnedMeshRenderer renderer in skinnedMeshRenderer)
+        {
+            originalMaterials.Add(renderer.materials); // store the original materials
+        }
         animator.Play("WalkEnemy");
     }
 
@@ -74,15 +42,26 @@ public class EnemyHealthDamage : MonoBehaviour
 
     private IEnumerator ChangeMaterialTemporarily()
     {
-        foreach (MeshRenderer mr in meshRenderers)
+        Material[] hurtMaterials;
+
+        foreach (SkinnedMeshRenderer renderer in skinnedMeshRenderer)
         {
-            mr.material = hurtMaterial;
+            hurtMaterials = new Material[renderer.materials.Length];
+            for (int i = 0; i < hurtMaterials.Length; ++i)
+            {
+                hurtMaterials[i] = hurtMaterial;
+            }
+
+            renderer.materials = hurtMaterials;
         }
-        yield return new WaitForSeconds(0.1f);
-        foreach (MeshRenderer mr in meshRenderers)
+
+        yield return new WaitForSeconds(0.1f); // changed from 0.1f to 1f
+
+        for (int i = 0; i < skinnedMeshRenderer.Length; ++i)
         {
-            mr.material = originalMaterial;
+            skinnedMeshRenderer[i].materials = originalMaterials[i];
         }
+
         if (!isDead) // check if the enemy is not dead
         {
             animator.Play("WalkEnemy"); // switch back to WalkEnemy animation
