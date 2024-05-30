@@ -22,5 +22,8 @@ public class EnemyController : MonoBehaviour
         {
             MyAgent.SetDestination(Player.position); // set the destination of the NavMeshAgent to the player.
         }
+
+        else { MyAgent.enabled = false; }
     }
+    
 }

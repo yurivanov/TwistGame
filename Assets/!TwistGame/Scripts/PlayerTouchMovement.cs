@@ -12,6 +12,8 @@ public class PlayerTouchMovement : MonoBehaviour
     [SerializeField]
     private NavMeshAgent Player;
 
+    public bool ShootWeapon = false;
+
     private Finger MovementFinger;
     private Vector2 MovementAmount;
     private CharacterHealth characterHealth;
@@ -114,15 +116,12 @@ public class PlayerTouchMovement : MonoBehaviour
         // Check if the player is dead.
         if (characterHealth.health <= 0)
         {
-            anim.Play("DeadCharacter"); // if player is dead, use idle animation
+            anim.enabled = false;
+           // anim.Play("DeadCharacter"); // if player is dead, use idle animation
             return; // Exit the method early if the player is dead.
         }
 
-        Vector3 scaledMovement = Player.speed * Time.deltaTime * new Vector3(
-            MovementAmount.x,
-            0,
-            MovementAmount.y
-        );
+        Vector3 scaledMovement = Player.speed * Time.deltaTime * new Vector3( MovementAmount.x, 0, MovementAmount.y);
 
         Player.transform.LookAt(Player.transform.position + scaledMovement, Vector3.up);
 
@@ -130,13 +129,24 @@ public class PlayerTouchMovement : MonoBehaviour
         if (scaledMovement != Vector3.zero)
         {
             Player.Move(scaledMovement);
+                        
             anim.Play("WalkCharacter"); // if player is moving, use walk animation
-           // anim.SetBool("IdleCharacter", false);
+                                       // anim.SetBool("IdleCharacter", false);
+           
+        
         }
+
         else
         {
-            // anim.SetBool("WalkCharacter", false); // if player is not moving, use idle animation
-            anim.Play("IdleCharacter");
+                      
+                // anim.SetBool("WalkCharacter", false); // if player is not moving, use idle animation
+                anim.Play("IdleCharacter");
+            
         }
+
+
+        
+
+        
     }
 }

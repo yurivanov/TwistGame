@@ -36,8 +36,10 @@ public class EnemyHealthDamage : MonoBehaviour
     private void Die()
     {
         isDead = true;
-        animator.Play("DeadEnemy");
-        Destroy(gameObject, 2f);
+        animator.enabled = false;
+        //animator.Play("DeadEnemy");
+        
+        //Destroy(gameObject, 2f);
     }
 
     private IEnumerator ChangeMaterialTemporarily()

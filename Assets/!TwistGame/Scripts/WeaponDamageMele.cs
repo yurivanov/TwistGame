@@ -28,7 +28,7 @@ public class WeaponDamage : MonoBehaviour
     {
         if(characterHealth.health <= 0)
         {
-            Destroy(gameObject, 2f);
+            Destroy(gameObject, 1f);
         }
     }
 }
