@@ -16,8 +16,6 @@ ModelImporter:
     optimizeGameObjects: 0
     removeConstantScaleCurves: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -77,12 +75,7 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-  referencedClips:
-  - 578b8283915f22c4e985e2168ee8364d
-  - 23fdbe2d85d31134a9f8c7f69dc8bb88
-  - 9c1dc8ebfa3c968478231476c17185bd
-  - 89df7e8171e83094ea63edf4e6816c73
-  - 27453e77b17af6248b96e11b5836d639
+  referencedClips: []
   importAnimation: 1
   humanDescription:
     serializedVersion: 3
